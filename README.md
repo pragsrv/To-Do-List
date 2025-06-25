@@ -2,9 +2,12 @@
 
 This is a minimalist to-do list application with a built-in Pomodoro timer and digital clock. The application is designed to help you manage your tasks efficiently while using the Pomodoro technique to enhance productivity. The interface is simple and clean, using a dark theme with grey, white, and black palette colors.
 
+![20250625-0351-59 1238725-ezgif com-optimize](https://github.com/user-attachments/assets/1a644963-d20a-4056-9863-9cfee63617da)
+
 ## Features
 
 ### To-Do List
+![image](https://github.com/user-attachments/assets/52a7d5f3-7831-4b98-8a74-6f4eb1544442)
 
 - **Add Task**: Enter a task in the input field and press "Enter" or click the "Add Task" button to add it to the list.
 - **Task Checkbox**: Each task has a checkbox to mark it as completed. When checked, the task text is crossed out.
@@ -17,7 +20,11 @@ This is a minimalist to-do list application with a built-in Pomodoro timer and d
 
 
 ### Digital Clock
+![image](https://github.com/user-attachments/assets/d20acbc2-80f4-459d-a27b-15069af54993)
+
 - **Real-Time Display**: A digital clock displays the current time in hours, minutes, and seconds, updating every second.
+
+![image](https://github.com/user-attachments/assets/d9d8218f-4fcc-47f1-84a8-bfeeee2e0abd)
 
 ### Pomodoro Timer
 - **Start/Pause Button**: A single button to start and pause the Pomodoro timer.

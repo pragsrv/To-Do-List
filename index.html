@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced To-Do List with Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Productive Task Manager</h1>
+        <div class="input-container">
+            <input type="text" id="new-task" placeholder="What's your next task?" autofocus>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+        
+        <div class="clock-container">
+            <div class="digital-clock" id="digital-clock">00:00:00</div>
+            <div class="pomodoro-container">
+                <div class="pomodoro-time" id="pomodoro-time">25:00</div>
+                <div class="pomodoro-controls">
+                    <button id="pomodoro-toggle" onclick="togglePomodoro()">Start</button>
+                    <button id="pomodoro-reset" onclick="resetPomodoro()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
